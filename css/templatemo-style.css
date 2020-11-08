@@ -92,7 +92,7 @@ p {
 }
 
 .section-btn:hover {
-  background: #E3AE57;
+  background: #7af5f2;
   border-color: transparent;
   color: #ffffff;
 }
@@ -144,7 +144,7 @@ footer {
 
 #experience,
 #education {
-  background: #E9724C;
+  background: #5accc9;
 }
 
 .background-image {
@@ -165,11 +165,11 @@ footer {
 }
 
 .color-yellow {
-  color: #E3AE57;
+  color: #5aaccc;
 }
 
 .bg-yellow {
-  background: #E3AE57;
+  background: #5aaccc;
 }
 
 .bg-white {
@@ -191,14 +191,14 @@ html{
 }
 
 a {
-  color: #E3AE57;
+  color: #5aaccc;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #E3AE57;
+  color: #5aaccc;
   outline: none;
 }
 
@@ -252,7 +252,7 @@ a:hover, a:active, a:focus {
   margin-top: -10px;
   margin-left: -10px;
   border-radius: 50%;
-  border: 2px solid #E3AE57;
+  border: 2px solid #5aaccc;
   border-top-color: #f9f9f9;
   animation: spinner .6s linear infinite;
 }
@@ -297,7 +297,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #E3AE57;
+    color: #5aaccc;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -307,7 +307,8 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #E3AE57;
+    color: #28a9bf;
+  text-shadow: 0 0 3px #28b9cf;
 }
 
 .custom-navbar .navbar-toggle {
@@ -320,7 +321,7 @@ a:hover, a:active, a:focus {
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
-    background: #E3AE57;
+    background: #5aaccc;
     border-color: transparent;
 }
 
@@ -331,9 +332,10 @@ a:hover, a:active, a:focus {
         background: 0 0; 
     }
     .custom-navbar.top-nav-collapse {
-        background: #ffffff;
+        background-color: rgba(70, 225, 235, 0.9);
         box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
         padding: 0;
+  box-shadow: 0 0 50px #4391e6;
     }
 
 }
@@ -349,8 +351,8 @@ a:hover, a:active, a:focus {
 }
 
 #home .col-md-6 {
-  background: #f1e2d7;
-/* light blue color: #c3eafd; */
+  background: #57cbde;
+/* light blue color: #71f5f3; */
   padding-right: 0;
   padding-left: 0;
 }
@@ -416,7 +418,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #service {
-  background: #E9724C;
+  background: #5dc8d9;
 }
 
 #service p {
@@ -462,7 +464,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #education {
-  background: #E3AE57;
+  background: #5aaccc;
 }
 
 #education .education-img {
@@ -479,7 +481,7 @@ a:hover, a:active, a:focus {
 }
 
 #education small {
-  color: #886D1E;
+  color: #1e8a9c;
   font-weight: bold;
 }
 
@@ -523,7 +525,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #contact {
-  background: #E9724C;
+  background: #28a9bf;
 }
 
 #contact .contact-form,
@@ -549,13 +551,13 @@ a:hover, a:active, a:focus {
 #contact .form-control {
   background: transparent;
   border: none;
-  border-bottom: 1px solid #E3AE57;
+  border-bottom: 1px solid #5aaccc;
   border-radius: 0px;
   box-shadow: none;
   color: #ffffff;
   font-size: 18px;
   margin-top: 10px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   transition: all 0.4s ease-in-out;
 }
 
@@ -572,7 +574,7 @@ a:hover, a:active, a:focus {
   border: 2px solid transparent;
   border-radius: 40px;
   color: #161616;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 #contact input[type="submit"]:hover {
@@ -631,7 +633,7 @@ footer {
 }
 
 .social-icon li a:hover {
-    background: #E3AE57;
+    background: #5aaccc;
     border-color: #ffffff;
     color: #ffffff;
     transform: scale(1.1);
